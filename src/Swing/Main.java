@@ -56,7 +56,7 @@ public class Main {
         JButton button1 = new JButton("1");  //добавялю кнопку 1
         button1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("1");
+                textField.setText(textField.getText()+"1");
             }
         });
         panel.add(button1);  //добавляю кнопку к фрейму
@@ -64,7 +64,7 @@ public class Main {
         JButton button2 = new JButton("2");
         button2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("2");
+                textField.setText(textField.getText()+"2");
             }
         });
         panel.add(button2);
@@ -72,7 +72,7 @@ public class Main {
         JButton button3 = new JButton("3");
         button3.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("3");
+                textField.setText(textField.getText()+"3");
             }
         });
         panel.add(button3);
@@ -80,7 +80,7 @@ public class Main {
         JButton button4 = new JButton("4");
         button4.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("4");
+                textField.setText(textField.getText()+"4");
             }
         });
         panel.add(button4);
@@ -88,7 +88,7 @@ public class Main {
         JButton button5 = new JButton("5");
         button5.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("5");
+                textField.setText(textField.getText()+"5");
             }
         });
         panel.add(button5);
@@ -96,7 +96,7 @@ public class Main {
         JButton button6 = new JButton("6");
         button6.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("6");
+                textField.setText(textField.getText()+"6");
             }
         });
         panel.add(button6);
@@ -104,7 +104,7 @@ public class Main {
         JButton button7 = new JButton("7");
         button7.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("7");
+                textField.setText(textField.getText()+"7");
             }
         });
         panel.add(button7);
@@ -112,7 +112,7 @@ public class Main {
         JButton button8 = new JButton("8");
         button8.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("8");
+                textField.setText(textField.getText()+"8");
             }
         });
         panel.add(button8);
@@ -120,7 +120,7 @@ public class Main {
         JButton button9 = new JButton("9");
         button9.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("9");
+                textField.setText(textField.getText()+"9");
             }
         });
         panel.add(button9);
@@ -128,7 +128,7 @@ public class Main {
         JButton button0 = new JButton("0");
         button0.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
-                textField.setText("0");
+                textField.setText(textField.getText()+"0");
             }
         });
         panel.add(button0);
