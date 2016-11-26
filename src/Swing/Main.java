@@ -42,7 +42,7 @@ public class Main {
         JTextField textField = new JTextField(); //добавляю строку для ввода значений
         frame.add(textField, BorderLayout.NORTH);  //добавляю строку к фрейму, расположение вверху
 
-        JPanel panel = new JPanel(new GridLayout(6,3));
+        JPanel panel = new JPanel(new GridLayout(5,3));
         frame.add(panel);
 
 //        for (int i = 0; i<=9; i++){
@@ -174,8 +174,13 @@ public class Main {
                 textField.setText(null);
             }
         });
-        panel.add(buttonC);
+        JPanel panel2 = new JPanel();
+        frame.add(panel2, BorderLayout.SOUTH);
+        panel2.setLayout(new BorderLayout());
+        panel2.add(buttonC);
+
 
         frame.setVisible(true);    //видимость окна
+
     }
 }
