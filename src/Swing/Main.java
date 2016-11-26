@@ -3,8 +3,6 @@ package Swing;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 
 public class Main {
@@ -14,7 +12,7 @@ public class Main {
 
         JFrame frame = new JFrame("Калькулятор"); //создаю окно
         frame.setSize(300, 310);  //размер окна
-        frame.setResizable(true);   //изменение размера окна
+        frame.setResizable(false);   //изменение размера окна
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);   //завершение программы при закрытии окна
 
         JMenuBar menuBar = new JMenuBar(); //Создаю меню
